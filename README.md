@@ -94,4 +94,4 @@ For personal use, no permission is required. For professional or commercial use,
 See the [LICENSE](LICENSE.txt) file for full details
 
 ## Website
-https://sorabh86.github.com
+https://sorabh86.github.io
