@@ -1,0 +1,33 @@
+## installation
+```cmd
+mkdir my-ts-project
+cd my-ts-project
+npm init -y   # Creates package.json with default values
+
+npm install typescript --save-dev
+# Verify installation:
+npx tsc -v   # Check TypeScript compiler (tsc) version
+
+npx tsc --init # Generate tsconfig.json
+```
+
+tsconfig.json
+```json
+{
+  "compilerOptions": {
+    "target": "ES6",          // Output JavaScript version
+    "module": "CommonJS",     // Module system (e.g., CommonJS, ES6)
+    "outDir": "./dist",       // Output directory for compiled JS
+    "rootDir": "./src",       // Source directory for TS files
+    "strict": true,           // Enable strict type-checking
+    "esModuleInterop": true   // Improve module compatibility
+  },
+  "include": ["src/**/*"]     // Include all files in src
+}
+```
+
+Make directory
+```cmd
+mkdir src      # TypeScript source files
+mkdir dist     # Compiled JavaScript files
+```
