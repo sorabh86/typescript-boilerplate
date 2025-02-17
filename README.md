@@ -9,7 +9,6 @@ This is a practice project for TypeScript, designed to help you get started with
 
 Here’s an improved and expanded **Getting Started** section with more steps:  
 
-```markdown
 ## Getting Started  
 
 Follow these steps to set up the project locally.  
