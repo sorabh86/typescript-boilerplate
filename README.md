@@ -66,7 +66,7 @@ npm run test
 ```  
 
 Now you're ready to start working on the project! 🚀  
-```
+
 
 This version makes it more comprehensive, covering essential steps to get started. Let me know if you need further refinements! 😊
 
